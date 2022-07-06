@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_show_gradienter_key" translatable="false">pref_show_gradienter_key</string>
+    <string name="pref_time_water_mark_key" translatable="false">pref_time_water_mark_key</string>
+    <string name="pref_location_water_mark_key" translatable="false">pref_location_water_mark_key</string>
+    <string name="pref_brand_water_mark_key" translatable="false">pref_brand_water_mark_key</string>
+
+    <string name="pref_filter_display_key" translatable="false">pref_filter_display_key</string>
+</resources>

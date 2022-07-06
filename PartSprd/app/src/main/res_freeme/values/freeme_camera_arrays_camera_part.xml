@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="pref_camera_privacy_enable_key_array">
+        <item>@string/pref_camera_privacy_enable_key</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_privacy_default_value_first</item>
+        <item>@array/preference_camera_privacy_entryvalues</item>
+        <item>@array/preference_camera_privacy_entryvalues</item>
+    </integer-array>
+
+    <string-array name="preference_camera_privacy_entryvalues">
+        <item>@string/preference_privacy_default_value_first</item>
+        <item>@string/preference_privacy_default_value_ok</item>
+        <item>@string/preference_privacy_default_value_cancel</item>
+    </string-array>
+</resources>

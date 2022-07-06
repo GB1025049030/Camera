@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.4.1)
+aux_source_directory( . SRC_FILE )
+add_library( bitmaputils SHARED ${SRC_FILE} )
+find_library( log-lib log )
+find_library( jnigraphics-lib jnigraphics )
+target_link_libraries( bitmaputils ${jnigraphics-lib} ${log-lib} )

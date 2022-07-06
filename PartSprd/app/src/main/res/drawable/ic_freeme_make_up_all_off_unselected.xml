@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/freeme_make_up_icon_size"
+    android:height="@dimen/freeme_make_up_icon_size"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <path
+        android:fillAlpha="0"
+        android:fillColor="#D8D8D8"
+        android:fillType="evenOdd"
+        android:pathData="M0.0017,0h72v72h-72z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M55.1906,14.688C56.201,15.5978 56.2824,17.1503 55.3726,18.1607L39.3095,35.9995L55.3735,53.8408C56.2833,54.8512 56.2019,56.4037 55.1916,57.3135C54.1813,58.2212 52.6287,58.1398 51.7189,57.1315L36.0005,39.6755L20.2831,57.1316C19.3752,58.1398 17.8207,58.2213 16.8104,57.3136C15.8021,56.4037 15.7207,54.8512 16.6284,53.8409L32.6915,35.9995L16.6294,18.1606C15.7216,17.1503 15.803,15.5978 16.8114,14.6879C17.8197,13.7781 19.3743,13.8596 20.284,14.8699L36.0005,32.3245L51.718,14.87C52.6297,13.8596 54.1823,13.7782 55.1906,14.688Z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+</vector>

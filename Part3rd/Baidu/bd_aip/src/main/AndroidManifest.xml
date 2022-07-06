@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.library.baidu.aip">
+
+    <application>
+        <activity
+            android:name="com.android.library.baidu.aip.ui.BaikeInfoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Camera.Iko" />
+    </application>
+
+</manifest>

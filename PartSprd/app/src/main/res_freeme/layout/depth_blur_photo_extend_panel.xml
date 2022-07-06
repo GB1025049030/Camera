@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/depth_blur_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="20dp"
+    android:layout_gravity="end"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_freeme_plus"
+        android:layout_above="@+id/depth_seek_bar"/>
+
+    <com.dream.camera.ui.VerticalSeekBar
+        android:id="@+id/depth_seek_bar"
+        style="@style/DreamSeekBarExceptDepthBlurModule"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp200"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_freeme_minus"
+        android:layout_below="@+id/depth_seek_bar"/>
+</RelativeLayout>

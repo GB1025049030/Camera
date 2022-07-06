@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- button type -->
+    <integer name="button_type_multitoggleimagebutton">1</integer>
+    <integer name="button_type_rotateimagebutton">2</integer>
+
+    <!-- photo res id -->
+    <integer name="flash_toggle_button_dream">100</integer>
+    <integer name="hdr_toggle_button_dream">101</integer>
+    <integer name="motion_photo_toggle_button_dream">102</integer>
+    <integer name="refocus_toggle_button_dream">103</integer>
+    <integer name="make_up_toggle_button_dream">104</integer>
+    <integer name="camera_toggle_button_dream">105</integer>
+    <integer name="metering_toggle_button_dream">106</integer>
+    <integer name="director_toggle_button_dream">107</integer>
+    <integer name="qrcode_gallery_toggle_button">108</integer>
+    <integer name="gif_photo_flash_toggle_button_dream">109</integer>
+    <integer name="make_up_display_toggle_button_dream">110</integer>
+    <integer name="light_portrait_display_toggle_button_dream">111</integer>
+    <integer name="portrait_refocus_toggle_button_dream">112</integer>
+    <integer name="default_ration_button_dream">113</integer>
+
+    <integer name="filter_display_toggle_button_dream">125</integer>
+    <integer name="count_down_toggle_button_dream">126</integer>
+
+    <integer name="settings_button_dream">130</integer>
+
+    <!-- video res id -->
+    <integer name="video_flash_toggle_button_dream">120</integer>
+    <integer name="make_up_video_toggle_button_dream">121</integer>
+    <integer name="filter_video_toggle_button_dream">122</integer>
+
+    <!-- photo item setting config -->
+    <!-- rotate button config-->
+    <array name="camera_button_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/camera_toggle_button_dream</item>
+        <item>@array/camera_setting_descriptions</item>
+        <item>@array/camera_id_icons</item>
+    </array>
+
+    <!-- toggle button config-->
+    <array name="flash_front_led_button_photo_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/flash_toggle_button_dream</item>
+        <item>@array/camera_flash_descriptions</item>
+        <item>@array/dream_camera_front_led_flashmode_icons</item>
+    </array>
+
+    <array name="flash_manual_button_photo_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/flash_toggle_button_dream</item>
+        <item>@array/camera_manual_flash_descriptions</item>
+        <item>@array/dream_camera_manual_flashmode_icons</item>
+    </array>
+
+    <array name="flash_gif_button_photo_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/gif_photo_flash_toggle_button_dream</item>
+        <item>@array/video_flash_descriptions</item>
+        <item>@array/dream_video_flashmode_icons</item>
+    </array>
+
+    <array name="flash_un_button_photo_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/flash_toggle_button_dream</item>
+        <item>@array/camera_flash_descriptions</item>
+        <item>@array/dream_camera_flashmode_icons</item>
+    </array>
+
+    <array name="flash_front_led_button_video_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/video_flash_toggle_button_dream</item>
+        <item>@array/video_flash_descriptions</item>
+        <item>@array/dream_video_front_led_flashmode_icons</item>
+    </array>
+
+    <array name="flash_button_video_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/video_flash_toggle_button_dream</item>
+        <item>@array/video_flash_descriptions</item>
+        <item>@array/dream_video_flashmode_icons</item>
+    </array>
+
+    <array name="refocus_button_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/refocus_toggle_button_dream</item>
+        <item>@array/refocus_descriptions</item>
+        <item>@array/refocus_icons</item>
+    </array>
+
+    <array name="hdr_button_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/hdr_toggle_button_dream</item>
+        <item>@array/hdr_descriptions</item>
+        <item>@array/dream_camera_hdr_icons</item>
+    </array>
+
+    <array name="hdr_with_auto_button_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/hdr_toggle_button_dream</item>
+        <item>@array/hdr_descriptions</item>
+        <item>@array/dream_camera_hdr_with_auto_icons</item>
+    </array>
+
+    <array name="motion_button_photo_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/motion_photo_toggle_button_dream</item>
+        <item>@array/motion_photo_descriptions</item>
+        <item>@array/dream_camera_motionphoto_icons</item>
+    </array>
+
+    <array name="metering_button_photo_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/metering_toggle_button_dream</item>
+        <item>@array/metering_descriptions</item>
+        <item>@array/dream_metering_icons</item>
+    </array>
+
+    <array name="director_button_photo_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/director_toggle_button_dream</item>
+        <item>@array/director_descriptions</item>
+        <item>@array/director_icons</item>
+    </array>
+
+    <array name="qr_code_gallery_button_photo_top_config">
+        <item>@integer/button_type_rotateimagebutton</item>
+        <item>@integer/qrcode_gallery_toggle_button</item>
+        <item>@drawable/ic_freeme_gallery_indicator_sprd</item>
+    </array>
+
+    <array name="count_down_button_photo_top_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/count_down_toggle_button_dream</item>
+        <item>@array/count_down_descriptions</item>
+        <item>@array/dream_countdown_duration_icons</item>
+    </array>
+</resources>

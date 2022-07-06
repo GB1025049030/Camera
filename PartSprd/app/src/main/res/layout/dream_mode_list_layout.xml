@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.ModeListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mode_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:background="@null"
+    android:descendantFocusability="blocksDescendants"
+    android:fillViewport="true"
+    android:visibility="invisible">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dream_background_transluent" />
+
+    <FrameLayout
+        android:id="@+id/mode_list_layout_inside"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@null"
+        android:fillViewport="true">
+
+        <FrameLayout
+            android:id="@+id/dream_mode_list_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_panel_height"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/mode_list_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/top_panel_height"
+                android:layout_gravity="center|bottom"
+                android:gravity="bottom|center"
+                android:text="@string/camera_mode"
+                android:textColor="@color/mode_selector_text_color"
+                android:textSize="@dimen/mode_selector_text_size" />
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+            android:scrollbars="vertical" />
+
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/settings_button"
+            android:layout_width="@dimen/mode_list_settings_icon_size"
+            android:layout_height="@dimen/mode_list_settings_icon_size"
+            android:layout_gravity="top|left"
+            android:background="@drawable/settings_gear_background"
+            android:contentDescription="@string/mode_settings"
+            android:scaleType="center"
+            android:src="@drawable/ic_settings_normal"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</com.android.camera.ui.ModeListView>

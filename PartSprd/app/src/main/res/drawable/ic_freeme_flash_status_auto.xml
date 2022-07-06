@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/freeme_top_panel_button_size"
+    android:height="@dimen/freeme_top_panel_button_size"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+
+    <path
+        android:fillColor="@color/freeme_second_color"
+        android:pathData="M14.843,33.622L36.7,9.041,33.581,24.919h10.93L22.45,50.322l4.885-16.7H14.843Z" />
+    <path
+        android:fillColor="@color/freeme_second_color"
+        android:pathData="M39.486,36.838H37.737L32.915,49.558h1.806l1.217-3.482H41.21L42.5,49.558h1.806Zm-3.031,7.8,1.9-5.288a4.926,4.926,0,0,0,.2-0.887h0.041a6.012,6.012,0,0,0,.2
+.887 L40.7,44.639H36.454Z" />
+</vector>

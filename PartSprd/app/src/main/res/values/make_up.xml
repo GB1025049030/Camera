@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- switcher -->
+    <!-- text color -->
+    <color name="switcher_color_operation_enable">#E6D417</color>
+    <color name="switcher_color_operation_disable">#FFFFFF</color>
+
+    <!-- key -->
+    <string name="switcher_key_makeup">light_portrait_key_butterfly</string>
+
+    <integer-array name="switcher_makeup">
+        <item>@string/switcher_key_makeup</item>
+        <item>@drawable/ic_freeme_make_up_all_off_unselected</item>
+        <item>@drawable/ic_freeme_make_up_all_off_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@string/switcher_des_operation_disable</item>
+        <item>@string/switcher_des_operation_disable</item>
+
+    </integer-array>
+
+    <!-- filter -->
+    <!-- text color -->
+    <color name="make_up_color_selected">@color/freeme_main_color</color>
+    <color name="make_up_color_unselected">@color/freeme_second_color</color>
+    <color name="make_up_color_disable">@color/freeme_third_color</color>
+
+    <!-- make up mode key -->
+    <string name="make_up_key_skinsmooth">make_up_key_skinsmooth</string>
+    <string name="make_up_key_removeblemish">make_up_key_removeblemish</string>
+    <string name="make_up_key_skinbright">make_up_key_skinbright</string>
+    <string name="make_up_key_skincolor">make_up_key_skincolor</string>
+    <string name="make_up_key_skincolorwhite">make_up_key_skincolorwhite</string>
+    <string name="make_up_key_skincolorrosv">make_up_key_skincolorrosv</string>
+    <string name="make_up_key_skincolorwheat">make_up_key_skincolorwheat</string>
+    <string name="make_up_key_enlargeeyes">make_up_key_enlargeeyes</string>
+    <string name="make_up_key_slimface">make_up_key_slimface</string>
+    <string name="make_up_key_lipscolor">make_up_key_lipscolor</string>
+    <string name="make_up_key_lipscolorcrimson">make_up_key_lipscolorcrimson</string>
+    <string name="make_up_key_lipscolorpink">make_up_key_lipscolorpink</string>
+    <string name="make_up_key_lipscolorfuchsia">make_up_key_lipscolorfuchsia</string>
+
+    <string name="make_up_key_skinsmooth_value">1</string>
+    <string name="make_up_key_removeblemish_value">2</string>
+    <string name="make_up_key_skinbright_value">3</string>
+    <string name="make_up_key_skincolor_value">4</string>
+    <string name="make_up_key_skincolorwhite_value">5</string>
+    <string name="make_up_key_skincolorrosv_value">6</string>
+    <string name="make_up_key_skincolorwheat_value">7</string>
+    <string name="make_up_key_enlargeeyes_value">8</string>
+    <string name="make_up_key_slimface_value">9</string>
+    <string name="make_up_key_lipscolor_value">10</string>
+    <string name="make_up_key_lipscolorcrimson_value">11</string>
+    <string name="make_up_key_lipscolorpink_value">12</string>
+    <string name="make_up_key_lipscolorfuchsia_value">13</string>
+
+    <integer-array name="make_up_item_skinsmooth">
+        <item>@string/make_up_key_skinsmooth</item>
+        <item>@string/extend_panel_skin_smooth</item>
+        <item>@drawable/effect_skin_grinding_pressed</item>
+        <item>@drawable/effect_skin_grinding_normal</item>
+        <item>@drawable/effect_skin_grinding_disable</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_skinsmooth_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_removeblemish">
+        <item>@string/make_up_key_removeblemish</item>
+        <item>@string/extend_panel_remove_blemish</item>
+        <item>@drawable/effect_remove_blemish_pressed</item>
+        <item>@drawable/effect_remove_blemish_normal</item>
+        <item>@drawable/effect_remove_blemish_disable</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_removeblemish_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_skinbright">
+        <item>@string/make_up_key_skinbright</item>
+        <item>@string/extend_panel_skin_bright</item>
+        <item>@drawable/effect_skin_whitening_pressed</item>
+        <item>@drawable/effect_skin_whitening_normal</item>
+        <item>@drawable/effect_skin_whitening_disable</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_skinbright_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_skincolor">
+        <item>@string/make_up_key_skincolor</item>
+        <item>@string/extend_panel_skin_colour</item>
+        <item>@drawable/effect_skin_color_pressed</item>
+        <item>@drawable/effect_skin_color_normal</item>
+        <item>@drawable/effect_skin_color_disable</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_skincolor_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_skincolorwhite">
+        <item>@string/make_up_key_skincolorwhite</item>
+        <item>@string/extend_panel_skincolor_white</item>
+        <item>@drawable/ic_operate_skin_color_white_sprd_selected</item>
+        <item>@drawable/ic_operate_skin_color_white_sprd_unselected</item>
+        <item>@drawable/ic_operate_skin_color_white_sprd_unselected</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_skincolorwhite_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_skincolorrosy">
+        <item>@string/make_up_key_skincolorrosv</item>
+        <item>@string/extend_panel_skincolor_rosy</item>
+        <item>@drawable/ic_operate_skin_color_rosy_sprd_selected</item>
+        <item>@drawable/ic_operate_skin_color_rosy_sprd_unselected</item>
+        <item>@drawable/ic_operate_skin_color_rosy_sprd_unselected</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_skincolorrosv_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_skincolorwheat">
+        <item>@string/make_up_key_skincolorwheat</item>
+        <item>@string/extend_panel_skincolor_wheat</item>
+        <item>@drawable/ic_operate_skin_color_wheat_sprd_selected</item>
+        <item>@drawable/ic_operate_skin_color_wheat_sprd_unselected</item>
+        <item>@drawable/ic_operate_skin_color_wheat_sprd_unselected</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_skincolorwheat_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_enlargeeyes">
+        <item>@string/make_up_key_enlargeeyes</item>
+        <item>@string/extend_panel_enlarge_eyes</item>
+        <item>@drawable/effect_big_eye_pressed</item>
+        <item>@drawable/effect_big_eye_normal</item>
+        <item>@drawable/effect_big_eye_disable</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_enlargeeyes_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_slimface">
+        <item>@string/make_up_key_slimface</item>
+        <item>@string/extend_panel_slim_face</item>
+        <item>@drawable/effect_face_lift_pressed</item>
+        <item>@drawable/effect_face_lift_normal</item>
+        <item>@drawable/effect_face_lift_disable</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_slimface_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_lipscolor">
+        <item>@string/make_up_key_lipscolor</item>
+        <item>@string/extend_panel_red_lips</item>
+        <item>@drawable/effect_lip_color_pressed</item>
+        <item>@drawable/effect_lip_color_normal</item>
+        <item>@drawable/effect_lip_color_disable</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_lipscolor_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_lipscolorcrimson">
+        <item>@string/make_up_key_lipscolorcrimson</item>
+        <item>@string/extend_panel_lipscolor_crimson</item>
+        <item>@drawable/ic_operate_lip_color_crimson_sprd_selected</item>
+        <item>@drawable/ic_operate_lip_color_crimson_sprd_unselected</item>
+        <item>@drawable/ic_operate_lip_color_crimson_sprd_unselected</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_lipscolorcrimson_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_lipscolorpink">
+        <item>@string/make_up_key_lipscolorpink</item>
+        <item>@string/extend_panel_lipscolor_pink</item>
+        <item>@drawable/ic_operate_lip_color_pink_sprd_selected</item>
+        <item>@drawable/ic_operate_lip_color_pink_sprd_unselected</item>
+        <item>@drawable/ic_operate_lip_color_pink_sprd_unselected</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_lipscolorpink_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_item_lipscolorfuchsia">
+        <item>@string/make_up_key_lipscolorfuchsia</item>
+        <item>@string/extend_panel_lipscolor_fuchsia</item>
+        <item>@drawable/ic_operate_lip_color_fuchsia_sprd_selected</item>
+        <item>@drawable/ic_operate_lip_color_fuchsia_sprd_unselected</item>
+        <item>@drawable/ic_operate_lip_color_fuchsia_sprd_unselected</item>
+        <item>@color/make_up_color_selected</item>
+        <item>@color/make_up_color_unselected</item>
+        <item>@color/make_up_color_disable</item>
+        <item>@string/make_up_key_lipscolorfuchsia_value</item>
+    </integer-array>
+
+    <integer-array name="make_up_mode_list">
+        <item>@array/make_up_item_skinsmooth</item>
+        <item>@array/make_up_item_removeblemish</item>
+        <item>@array/make_up_item_skinbright</item>
+        <item>@array/make_up_item_skincolor</item>
+        <item>@array/make_up_item_enlargeeyes</item>
+        <item>@array/make_up_item_slimface</item>
+        <item>@array/make_up_item_lipscolor</item>
+    </integer-array>
+    <integer-array name="make_up_video_mode_list">
+        <item>@array/make_up_item_skinsmooth</item>
+        <item>@array/make_up_item_skinbright</item>
+        <item>@array/make_up_item_skincolor</item>
+        <item>@array/make_up_item_enlargeeyes</item>
+        <item>@array/make_up_item_slimface</item>
+        <item>@array/make_up_item_lipscolor</item>
+    </integer-array>
+    <!--
+             <item>@array/make_up_item_skincolorwhite</item>
+        <item>@array/make_up_item_skincolorrosy</item>
+        <item>@array/make_up_item_skincolorwheat</item>
+                <item>@array/make_up_item_lipscolorcrimson</item>
+        <item>@array/make_up_item_lipscolorpink</item>
+        <item>@array/make_up_item_lipscolorfuchsia</item>
+     -->
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--(720x1520-320)(720x1600-320) display default-->
+<resources>
+   <dimen name="navigation_bottom_bar_height">172dp</dimen>
+    <dimen name="navigation_1520_720_bottom_bar_height">138dp</dimen>
+</resources>

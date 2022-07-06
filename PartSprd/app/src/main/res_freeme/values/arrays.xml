@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="slr_photo_module">
+        <item>34</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>SlrPhotoModule</item>>
+        <item>@string/camera_mode_slr_photo</item>
+        <item>@string/mode_camera_desc</item>
+        <item>@drawable/ic_auto_mode_sprd_unselected</item>
+        <item>@drawable/ic_auto_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_freeme_shutter_photo</item>
+    </array>
+
+    <array name="iko_photo_module">
+        <item>35</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>IKOPhotoModule</item>>
+        <item>@string/camera_mode_iko_photo</item>
+        <item>@string/mode_camera_desc</item>
+        <item>@drawable/ic_auto_mode_sprd_unselected</item>
+        <item>@drawable/ic_auto_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_freeme_shutter_photo</item>
+    </array>
+
+    <array name="effect_video_module">
+        <item>36</item> <!--module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>EffectVideoModule</item> <!--namesapce -->
+        <item>@string/effect_mode_video</item> <!-- text -->
+        <item>@string/effect_mode_video</item> <!--description-->
+        <item>@drawable/ic_video_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_video_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_video_blanket</item> <!-- cover -->
+        <item>@drawable/ic_freeme_shutter_video</item> <!--capture icon-->
+    </array>
+
+    <array name="slow_video_module">
+        <item>37</item> <!--module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>SlowVideoModule</item> <!--namesapce -->
+        <item>@string/slow_mode_video</item> <!-- text -->
+        <item>@string/slow_mode_video</item> <!--description-->
+        <item>@drawable/ic_video_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_video_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_video_blanket</item> <!-- cover -->
+        <item>@drawable/ic_freeme_shutter_video</item> <!--capture icon-->
+    </array>
+
+    <array name="depth_blur_photo_module">
+        <item>38</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>DepthBlurPhotoModule</item>>
+        <item>@string/camera_mode_slr_photo</item>
+        <item>@string/mode_camera_desc</item>
+        <item>@drawable/ic_bokeh_mode_sprd_unselected</item>
+        <item>@drawable/ic_bokeh_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_freeme_shutter_photo</item>
+    </array>
+
+    <array name="effect_photo_module">
+        <item>39</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>EffectPhotoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_effect_photo</item> <!-- text -->
+        <item>@string/mode_camera_desc</item> <!--description-->
+        <item>@drawable/ic_auto_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_auto_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_camera_blanket</item> <!-- cover -->
+        <item>@drawable/ic_freeme_shutter_photo</item> <!--capture icon-->
+    </array>
+
+    <array name="night_photo_module">
+        <item>40</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>NightPhotoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_3dnr_desc_photo</item> <!-- text -->
+        <item>@string/camera_mode_3dnr_desc_photo</item> <!--description-->
+        <item>@drawable/ic_3dnr_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_3dnr_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_3dnr_blanket</item> <!-- cover -->
+        <item>@drawable/ic_freeme_shutter_photo</item> <!--capture icon-->
+    </array>
+</resources>

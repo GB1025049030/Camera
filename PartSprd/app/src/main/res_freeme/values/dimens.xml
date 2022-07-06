@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mode_switch_margin_left_right">12dp</dimen>
+    <dimen name="dream2_bottom_mode_switch_height">32dp</dimen>
+    <dimen name="mode_switch_padding_top">8dp</dimen>
+    <dimen name="freeme_bottom_modeid_cancel_view_size">24dp</dimen>
+    <dimen name="freeme_bottom_modeid_cancel_image_size">18dp</dimen>
+    <dimen name="dream2_bottom_bar_height_min">112dp</dimen>
+    <dimen name="extend_panel_margin_bottom_size">8dp</dimen>
+
+    <dimen name="freeme_mode_scroll_text_size">14dp</dimen>
+    <dimen name="freeme_mode_scroll_selected_text_size">16dp</dimen>
+</resources>

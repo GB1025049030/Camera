@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/freeme_top_panel_button_size"
+    android:height="@dimen/freeme_top_panel_button_size"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+
+    <path
+        android:fillColor="@color/freeme_second_color"
+        android:pathData="M38.115,31.1l-10.7-10.5,8.477-9.477L33.045,25.5H43ZM47.9,49.678L33.9,35.928,22.9,48.513l4.45-15.129H15.972l7.167-8.014,9.286,9.115-22.1-21.693,2.428-2.47L50.332,47.208Z" />
+</vector>

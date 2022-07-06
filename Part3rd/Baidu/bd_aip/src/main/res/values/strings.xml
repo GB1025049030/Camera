@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IKO -->
+    <string name="iko_dialog_title">IKO</string>
+    <string name="freeme_iko_search">Search</string>
+    <string name="freeme_iko_error">IKO Error</string>
+    <string name="activity_not_found">The App hasn\'t been installed</string>
+    <string name="freeme_iko_no_network">No network,Please check</string>
+    <string name="not_search_image">No images and information found？</string>
+    <string name="try_search_image">Please re-identify</string>
+    <string name="iko_title">Identification information</string>
+    <string name="object_tip">Please aim at an object to keep the phone stable</string>
+    <string name="iko_is_identify">Automatic identification</string>
+    <string name="iko_cancel_title">cancel</string>
+    <string name="low_battery_disable_torch">Flashlight is not available under low battery!</string>
+    <string name="iko_recommend_news">The following is recommended for you</string>
+    <string name="freeme_check_browser">Please check if the browser is installed</string>
+</resources>

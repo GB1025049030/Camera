@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IKO -->
+    <string name="iko_dialog_title">识物</string>
+    <string name="not_search_image">未找到相应图片与信息？</string>
+    <string name="try_search_image">请重新识别</string>
+    <string name="iko_title">识别信息</string>
+    <string name="object_tip">请把物体对准屏幕中心,保持手机稳定</string>
+    <string name="iko_is_identify">自动识别中</string>
+    <string name="iko_cancel_title">取消</string>
+    <string name="low_battery_disable_torch">低电量下手电筒不可用!</string>
+    <string name="freeme_iko_no_network">暂无网络，请检查网络连接</string>
+    <string name="iko_recommend_news">以下是为您推荐</string>
+    <string name="freeme_check_browser">请检查是否安装浏览器</string>
+</resources>

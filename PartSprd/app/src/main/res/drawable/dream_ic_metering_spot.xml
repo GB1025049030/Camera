@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/freeme_top_panel_button_size"
+    android:height="@dimen/freeme_top_panel_button_size"
+    android:viewportWidth="81"
+    android:viewportHeight="81">
+    <path
+        android:fillAlpha="0"
+        android:fillColor="#D8D8D8"
+        android:fillType="evenOdd"
+        android:pathData="M0.5,0.5h80v80h-80z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillColor="@color/freeme_second_color"
+        android:fillType="evenOdd"
+        android:pathData="M40.5,40.5m-7.7143,0a7.7143,7.7143 0,1 1,15.4286 0a7.7143,7.7143 0,1 1,-15.4286 0"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillColor="#00000000"
+        android:fillType="evenOdd"
+        android:pathData="M66.7659,34.2393C63.9422,22.3465 53.2519,13.5 40.4955,13.5C27.7407,13.5 17.0515,22.3442 14.2262,34.2346M14.2689,46.9427C17.158,58.7436 27.8041,67.5 40.4955,67.5C53.223,67.5 63.8937,58.6935 66.7466,46.8415"
+        android:strokeWidth="4.5"
+        android:strokeColor="@color/freeme_second_color"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.freeme.camera.widget.selector.SelectorSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/make_up_switcher"
+    android:layout_width="72dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/freeme_make_up_gap_size"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pic"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:textColor="@color/freeme_color_white"
+        android:textSize="@dimen/freeme_external_panel_item_des_size" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="@dimen/freeme_make_up_icon_size"
+        android:layout_alignParentEnd="true"
+        android:alpha="0.6"
+        android:background="@color/freeme_second_color" />
+
+</com.freeme.camera.widget.selector.SelectorSwitcher>

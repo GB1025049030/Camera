@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_top_panel">
+
+    </array>
+
+    <array name="auto_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/hdr_with_auto_button_top_config</item>
+        <item>@array/motion_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="auto_video_top_panel">
+        <item>@array/flash_button_video_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="audio_picture_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/hdr_with_auto_button_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="blur_refocus_photo_top_panel">
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="front_blur_refocus_photo_top_panel">
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="continue_photo_top_panel">
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="filter_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="high_resolution_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="intent_capture_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="interval_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="ir_photo_top_panel">
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="macro_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/hdr_with_auto_button_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="manual_photo_top_panel">
+        <item>@array/flash_manual_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/metering_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="portrait_photo_top_panel">
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="scene_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="tdnr_photo_top_panel">
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="ultra_wide_angle_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/hdr_with_auto_button_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="iko_photo_top_panel">
+        <item>@array/flash_gif_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="slr_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/hdr_with_auto_button_top_config</item>
+        <item>@array/motion_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="effect_video_top_panel">
+        <item>@array/flash_button_video_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="macro_video_top_panel">
+        <item>@array/flash_button_video_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="intent_video_top_panel">
+        <item>@array/flash_button_video_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="slow_motion_video_top_panel">
+        <item>@array/flash_button_video_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="tdnr_video_top_panel">
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="time_lapse_video_top_panel">
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="panorama_photo_top_panel">
+        <item>@array/director_button_photo_top_config</item>
+    </array>
+
+    <array name="qr_code_photo_top_panel">
+        <item>@array/qr_code_gallery_button_photo_top_config</item>
+        <item>@array/flash_gif_button_photo_top_config</item>
+    </array>
+
+    <array name="td_range_find_top_panel">
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="gl_photo_top_panel">
+        <item>@array/flash_un_button_photo_top_config</item>
+        <item>@array/hdr_with_auto_button_top_config</item>
+        <item>@array/count_down_button_photo_top_config</item>
+        <item>@array/camera_button_top_config</item>
+    </array>
+
+    <array name="night_photo_top_panel">
+        <item>@array/camera_button_top_config</item>
+    </array>
+</resources>

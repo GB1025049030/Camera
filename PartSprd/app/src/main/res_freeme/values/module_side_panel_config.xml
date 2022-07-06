@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="makeup_display_photo_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/make_up_display_toggle_button_dream</item>
+        <item>@array/make_up_display_descriptions</item>
+        <item>@array/dream_make_up_icons</item>
+    </array>
+
+    <array name="makeup_display_photo_enable_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/make_up_display_toggle_button_dream</item>
+        <item>@array/make_up_display_descriptions</item>
+        <item>@array/dream_make_up_icons_enable</item>
+    </array>
+
+    <array name="makeup_display_photo_disable_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/make_up_display_toggle_button_dream</item>
+        <item>@array/make_up_display_descriptions</item>
+        <item>@array/dream_make_up_icons_disable</item>
+    </array>
+
+    <array name="makeup_display_video_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/make_up_display_toggle_button_dream</item>
+        <item>@array/make_up_display_descriptions</item>
+        <item>@array/dream_make_up_icons</item>
+    </array>
+
+    <array name="filter_effect_display_photo_config">
+        <item>@integer/button_type_multitoggleimagebutton</item>
+        <item>@integer/filter_display_toggle_button_dream</item>
+        <item>@array/filter_effect_display_descriptions</item>
+        <item>@array/filter_effect_display_icons</item>
+    </array>
+</resources>

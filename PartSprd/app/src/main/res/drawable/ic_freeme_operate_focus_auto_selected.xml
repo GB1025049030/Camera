@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/freeme_operate_icon_size"
+    android:height="@dimen/freeme_operate_icon_size"
+    android:viewportWidth="49"
+    android:viewportHeight="48">
+  <path
+      android:pathData="M0.6887,0h48v48h-48z"
+      android:strokeAlpha="0"
+      android:strokeWidth="1"
+      android:fillColor="#D8D8D8"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"
+      android:fillAlpha="0"/>
+  <path
+      android:pathData="M11.322,33.5L13.2019,28.6782L20.6726,28.6782L22.5524,33.5L26.4099,33.5L19.3786,15.4336L15.6189,15.4336L8.5876,33.5L11.322,33.5ZM19.7448,26.2734L14.1296,26.2734L16.9372,19.0713L19.7448,26.2734ZM32.7331,33.5L32.7331,25.895L38.9831,25.895L38.9831,23.4048L32.7331,23.4048L32.7331,17.9116L40.3381,17.9116L40.3381,15.4336L28.9733,15.4336L28.9733,33.5L32.7331,33.5Z"
+      android:strokeWidth="1"
+      android:fillColor="#22C580"
+      android:fillType="nonZero"
+      android:strokeColor="#00000000"/>
+</vector>

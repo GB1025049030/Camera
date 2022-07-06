@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dream_background_transluent">#CC000000</color>
+    <color name="dream_preference_font_color_main">#FFFFFF</color>
+    <color name="dream_preference_font_color_second">#7FFFFFFF</color>
+    <color name="dream_preference_delivier_color">#4CFFFFFF</color>
+    <color name="dream_main_color">#22c580</color>
+    <color name="dream_main_color_transluent">#7f22c580</color>
+    <color name="switch_track_color">#999999</color>
+    <color name="switch_track_color_transluent">#7f999999</color>
+
+    <item name="highlight_alpha_material_colored" format="float" type="dimen">0</item><!--modify 0.26 to 0 on 2021 03 15,hide checkbox anim-->
+    <color name="colorControlHighlight">#999999</color>
+    <color name="colorControlActivated">@color/dream_main_color</color>
+    <color name="colorSwitchThumbNormal">@color/switch_track_color</color>
+    
+</resources>

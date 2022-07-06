@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.just.agentweb</groupId>
+  <artifactId>agentweb</artifactId>
+  <versioning>
+    <release>4.0.3-beta</release>
+    <versions>
+      <version>4.0.3-beta</version>
+    </versions>
+    <lastUpdated>20210608040252</lastUpdated>
+  </versioning>
+</metadata>

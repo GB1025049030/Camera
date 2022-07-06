@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <bool name="use_custom_xml">false</bool>
+    <!-- @{ camera setting -->
+    <!-- back camera zoom panel support ? true : false -->
+    <bool name="camera_back_zoom_panel">true</bool>
+    <!-- front camera zoom panel support ? true : false -->
+    <bool name="camera_front_zoom_panel">false</bool>
+    <!-- camera gradienter support ? true : false -->
+    <bool name="camera_gradienter_enable">false</bool>
+    <!-- camera time water mark support ? true : false -->
+    <bool name="camera_time_water_mark_enable">false</bool>
+    <!-- camera location water mark support ? true : false -->
+    <bool name="camera_location_water_mark_enable">false</bool>
+    <!-- camera brand water mark support ? true : false -->
+    <bool name="camera_brand_water_mark_enable">false</bool>
+    <!-- }@ -->
+
+
+    <!-- @{ feature mode -->
+    <!-- camera manual mode support ? true : false -->
+    <bool name="camera_manual_photo_enable">true</bool>
+    <!-- camera qrcode mode support ? true : false -->
+    <bool name="camera_qrcode_photo_enable">true</bool>
+    <!-- camera continue mode support ? true : false -->
+    <bool name="camera_continue_photo_enable">true</bool>
+    <!-- camera filter mode support ? true : false -->
+    <bool name="camera_filter_photo_enable">true</bool>
+    <!-- camera interval mode support ? true : false -->
+    <bool name="camera_interval_photo_enable">true</bool>
+    <!-- camera dblexp mode support ? true : false -->
+    <bool name="camera_dblexp_photo_enable">false</bool>
+    <!-- camera slow_video support ? true : false -->
+    <bool name="camera_slow_video_enable">false</bool>
+    <!-- }@ -->
+
+    <!-- @{ feature default value -->
+    <!-- picturesize selector degressive ratio,the default value is 0.5-->
+    <string name="picturesize_selector_degreesive_ratio">""</string>
+    <!-- 前后摄美颜默认值 0：默认关闭， 1：默认打开-->
+    <string name="camera_back_beauty_default_value">0</string>
+    <string name="camera_front_beauty_default_value">1</string>
+    <!-- camera front focus area enable ? true : false -->
+    <bool name="camera_front_focus_area_enable">true</bool>
+    <!-- }@ -->
+
+    <!-- @{ feature slr function(景深) -->
+    <!-- camera depth blur mode support ? true : false -->
+    <bool name="camera_depth_blur_photo_enable">false</bool>
+    <!-- camera slr mode support ? true : false -->
+    <bool name="camera_slr_photo_enable">false</bool>
+    <!-- camera sprd back blur enable ? true : false -->
+    <bool name="camera_sprd_back_blur_enable">false</bool>
+    <!-- }@ -->
+
+    <!-- @{ feature iko function(智能识物) -->
+    <!-- camera iko mode support ? true : false -->
+    <bool name="camera_iko_photo_enable">false</bool>
+    <!-- camera Intelligent knowledge object(IKO) mode use specified browser-->
+    <string name="camera_iko_use_specified_browser_pkg">com.feimi.browser</string>
+    <!-- }@ -->
+
+    <!-- @{ picture size -->
+    <!-- camera custom picture size enable ? true : false -->
+    <bool name="camera_picture_size_custom_enable">false</bool>
+    <array name="picture_size_back_entries">
+        <item>23</item>
+        <item>(4:3) 23MP</item>
+        <item>(4:3) 23MP</item>
+        <item>(4:3) 23MP</item>
+        <item>(4:3) 23MP</item>
+        <item>16</item>
+        <item>(4:3) 16MP</item>
+        <item>(4:3) 16MP</item>
+        <item>(4:3) 16MP</item>
+        <item>(4:3) 16MP</item>
+    </array>
+    <array name="picture_size_front_entries">
+        <item>20</item>
+        <item>(4:3) 20MP</item>
+        <item>(4:3) 20MP</item>
+        <item>(4:3) 20MP</item>
+        <item>(4:3) 20MP</item>
+        <item>16</item>
+        <item>(4:3) 16MP</item>
+        <item>(4:3) 16MP</item>
+        <item>(4:3) 16MP</item>
+        <item>(4:3) 16MP</item>
+    </array>
+    <!-- }@ -->
+</resources>

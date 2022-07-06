@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.freeme.camera.widget.selector.SelectorItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/freeme_make_up_gap_size"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/freeme_external_panel_item_des_size" />
+
+</com.freeme.camera.widget.selector.SelectorItem>

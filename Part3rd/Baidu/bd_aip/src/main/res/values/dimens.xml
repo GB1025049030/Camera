@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iko_mask_top">10dp</dimen>
+    <dimen name="iko_mask_right">200dp</dimen>
+    <dimen name="iko_mask_bottom">300dp</dimen>
+    <dimen name="iko_translate_distance">200dp</dimen>
+    <dimen name="iko_corner_width">20dp</dimen>
+    <dimen name="iko_corner_length">5dp</dimen>
+    <dimen name="iko_original_image_top">8dp</dimen>
+    <dimen name="iko_search_image_width">200dp</dimen>
+    <dimen name="iko_search_image_height">200dp</dimen>
+    <dimen name="iko_original_image_width">160dp</dimen>
+    <dimen name="iko_original_image_height">120dp</dimen>
+</resources>

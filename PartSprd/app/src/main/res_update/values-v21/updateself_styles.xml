@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="updateself.AppTextAppearance.Notification.Content" parent="android:TextAppearance.Material.Notification" />
+    <style name="updateself.AppTextAppearance.Notification.Title" parent="android:TextAppearance.Material.Notification.Title" /> 
+    <style name="updateself.AppTextAppearance.Notification.Button" parent="android:TextAppearance.Material.Notification">
+        <item name="android:textColor">@color/updateself_notification_button_text</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="updateself.AppBaseTheme.Dialog.Alert" parent="android:Theme.Material.Light.Dialog.Alert">
+    </style>
+    <style name="updateself.dialog" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/update_self_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorControlActivated">@android:color/darker_gray</item>
+        <item name="android:colorAccent">@android:color/darker_gray</item>
+        <item name="android:colorPrimary">@android:color/darker_gray</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

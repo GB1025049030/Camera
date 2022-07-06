@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="vm"
+            type="com.android.library.baidu.aip.work.InfoBeanViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        tools:context="com.android.library.baidu.aip.ui.IKOActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/iko_title"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/iko_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:onClick="@{() -> vm.finish()}"
+                android:padding="5dp"
+                android:text="@string/iko_cancel_title"
+                android:textColor="#22c580"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <com.android.library.baidu.aip.ui.DragScrollDetailsLayout
+            android:id="@+id/drag_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include
+                    android:id="@+id/fail"
+                    layout="@layout/layout_info_recognize_fail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="@{vm.mIsSuccess ? View.GONE : View.VISIBLE}"
+                    bind:vm="@{vm}" />
+
+                <include
+                    android:id="@+id/success"
+                    layout="@layout/layout_info_recognize_success"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="@{vm.mIsSuccess ? View.VISIBLE : View.GONE}"
+                    bind:vm="@{vm}" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/web_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.android.library.baidu.aip.ui.DragScrollDetailsLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pref_show_gradienter_title">Gradienter</string>
+    <string name="pref_time_watermark_title">Time Water Mark</string>
+    <string name="pref_location_watermark_title">Location Water Mark</string>
+    <string name="pref_brand_watermark_title">Brand Water Mark</string>
+
+    <string name="camera_mode_slr_photo">@string/camera_mode_refocus</string>
+    <string name="camera_mode_iko_photo">IKO</string>
+    <string name="camera_mode_effect_photo">Beauty</string>
+    <string name="deleted">Deleted</string>
+
+
+    <string name="camera_mode_more">More</string>
+    <string name="mode_camera_more_desc">More</string>
+
+    <string name="network_dialog_ok">OK</string>
+    <string name="network_dialog_cancel">Cancel</string>
+    <string name="network_dialog_title">Allow the camera to use the network</string>
+    <string name="network_dialog_message">It is used to obtain intelligent object recognition information and accurate location information</string>
+
+    <string name="permission_location_setting">Permission Location setting</string>
+    <string name="permission_dont_ask_for_user_message">This permission has been selected dont ask again by the user. Do you want to set it manually?</string>
+    <string name="permission_go_to_detail_setting">go to setting</string>
+
+    <string name="pref_freeme_camera_check_update_title">check update</string>
+    <string name="pref_freeme_camera_manual_update_title">Manual update</string>
+
+    <string name="tips_content_text">This a beauty camera that supports multiple shooting modes</string>
+    <string name="privacy_content_text_main">
+         <Data>
+             <![CDATA[, <b>the application needs to connect to the Internet and obtain location information</b>. By clicking agree, you agree to the above contents.]]>
+         </Data>
+    </string>
+
+    <string name="privacy_content_text_prefix">In the process of using intelligent object recognition, location information, self-renewal</string>
+
+    <string name="camera_iko_top_privacy_disable">You have not allowed to use the network, and the object recognition function is not available</string>
+</resources>

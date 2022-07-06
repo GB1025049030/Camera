@@ -1,0 +1,25 @@
+rootProject.name = "FreemeCamera2"
+// sprd
+include ':PartSprd:android-ex-camera2-utils'
+include ':PartSprd:android-ex-camera2-portability'
+include ':PartSprd:xmp_toolkit'
+include ':PartSprd:app'
+
+// freeme
+include ':PartFreeme:common'
+
+include ':PartFreeme:Utils:zbar'
+include ':PartFreeme:Utils:libbitmap'
+//include ':PartFreeme:Utils:common'
+include ':PartFreeme:Utils:help'
+include ':PartFreeme:Utils:libslrblur'
+include ':PartFreeme:Utils:libyuv'
+
+//include ':PartFreeme:Mode:Photo:effectphoto'
+include ':PartFreeme:Mode:Photo:effect'
+
+// 3rd
+include ':Part3rd:Bytedance:effect_core'
+include ':Part3rd:Bytedance:effectAAR'
+include ':Part3rd:Baidu:bd_aip'
+include ':Part3rd:Baidu:BaiduLBS_AndroidSDK_Lib'

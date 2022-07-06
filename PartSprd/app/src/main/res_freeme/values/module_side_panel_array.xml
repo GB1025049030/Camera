@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="auto_photo_side_panel">
+        <item>@array/makeup_display_photo_config</item>
+    </array>
+
+    <array name="interval_photo_side_panel">
+        <item>@array/makeup_display_photo_config</item>
+    </array>
+
+    <array name="macro_photo_side_panel">
+        <item>@array/makeup_display_photo_config</item>
+    </array>
+
+    <array name="auto_video_side_panel">
+        <item>@array/makeup_display_video_config</item>
+    </array>
+
+    <array name="effect_video_side_panel">
+        <item>@array/makeup_display_video_config</item>
+    </array>
+
+    <array name="intent_photo_side_panel">
+        <item>@array/makeup_display_photo_config</item>
+    </array>
+
+    <array name="filter_photo_side_panel">
+        <item>@array/filter_effect_display_photo_config</item>
+    </array>
+</resources>

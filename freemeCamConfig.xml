@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!-- camera setting -->
+    <!-- back camera zoom panel support ? true : false -->
+    <ParamBoolean name="CAMERA_BACK_ZOOM_PANEL" value="true" />
+    <!-- front camera zoom panel support ? true : false -->
+    <ParamBoolean name="CAMERA_FRONT_ZOOM_PANEL" value="false" />
+    <!-- camera gradienter support ? true : false -->
+    <ParamBoolean name="CAMERA_GRADIENTER_ENABLE" value="false" />
+    <!-- camera time water mark support ? true : false -->
+    <ParamBoolean name="CAMERA_TIME_WATER_MARK_ENABLE" value="false" />
+    <!-- camera location water mark support ? true : false -->
+    <ParamBoolean name="CAMERA_Location_WATER_MARK_ENABLE" value="false" />
+    <!-- camera brand water mark support ? true : false -->
+    <ParamBoolean name="CAMERA_BRAND_WATER_MARK_ENABLE" value="false" />
+    <!-- camera setting only display photo proportion ? true : false -->
+    <ParamBoolean name="CAMERA_DISPLAY_PHOTO_PROPORTION_ONLY" value="false" />
+    <!-- camera macro mode display flash mode ? true : false-->
+    <ParamBoolean name="CAMERA_MACRO_MODE_FLASH_ENABLE" value="true" />
+    <!-- camera refocus covered tips show ? true : false-->
+    <ParamBoolean name="CAMERA_SHOW_REFOCUS_COVERED_TIPS" value="true" />
+    <!-- }@ -->
+
+    <!-- feature mode -->
+    <!-- camera manual mode support ? true : false -->
+    <ParamBoolean name="CAMERA_MANUAL_PHOTO_ENABLE" value="true" />
+    <!-- camera qrcode mode support ? true : false -->
+    <ParamBoolean name="CAMERA_QRCODE_PHOTO_ENABLE" value="true" />
+    <!-- camera continue mode support ? true : false -->
+    <ParamBoolean name="CAMERA_CONTINUE_PHOTO_ENABLE" value="true" />
+    <!-- camera filter mode support ? true : false -->
+    <ParamBoolean name="CAMERA_FILTER_PHOTO_ENABLE" value="true" />
+    <!-- camera interval mode support ? true : false -->
+    <ParamBoolean name="CAMERA_INTERVAL_PHOTO_ENABLE" value="true" />
+    <!-- camera high resolution mode support ? true : false -->
+    <ParamBoolean name="CAMERA_HIGH_RESOLUTION_PHOTO_ENABLE" value="true" />
+    <!-- camera panorama mode support ? true : false -->
+    <ParamBoolean name="CAMERA_PANORAMA_PHOTO_ENABLE" value="true" />
+    <!-- camera macro photo mode support ? true : false -->
+    <ParamBoolean name="CAMERA_MACRO_PHOTO_ENABLE" value="true" />
+
+    <!-- camera more mode support ? true : false -->
+    <ParamBoolean name="CAMERA_MORE_MODE_ENABLE" value="true" />
+
+    <!-- camera special value-->
+    <!-- camera use sys prop select, true: persist.vendor.external.camera0.interpol, false:persist.vendor.freeme.camera0.interpol-->
+    <ParamBoolean name="CAMERA_USE_NEW_SYS_PROP" value="false"/>
+    <!-- camera is CTA test version ? true : false-->
+    <ParamBoolean name="CAMERA_CTA_TEST_VERSION" value="false"/>
+
+    <!-- feature default value -->
+    <!-- picturesize selector degressive ratio,the default value is 0.5-->
+    <Param name="PICTURESIZE_SELECTOR_DEGRESSIVE_RATIO" value="" />
+    <!-- beauty options skin smooth default value back, level from small to big is (0,2,4,6,8,10)-->
+    <Param name="SKIN_SMOOTH_DEFAULT_VALUE_BACK" value=""/>
+    <!-- beauty options skin smooth default value front, level from small to big is (0,2,4,6,8,10)-->
+    <Param name="SKIN_SMOOTH_DEFAULT_VALUE_FRONT" value=""/>
+    <!-- beauty options Remove blemish default value back, 0:off, 1:on -->
+    <Param name="REMOVE_BLEMISH_DEFAULT_VALUE_BACK" value=""/>
+    <!-- beauty options Remove blemish default value front, 0:off, 1:on -->
+    <Param name="REMOVE_BLEMISH_DEFAULT_VALUE_FRONT" value=""/>
+    <!-- beauty options skin bright default value back, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="SKIN_BRIGHT_DEFAULT_VALUE_BACK" value=""/>
+    <!-- beauty options skin bright default value front, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="SKIN_BRIGHT_DEFAULT_VALUE_FRONT" value=""/>
+    <!-- beauty options skin color default value back, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="SKIN_COLOR_DEFAULT_VALUE_BACK" value=""/>
+    <!-- beauty options skin color default value front, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="SKIN_COLOR_DEFAULT_VALUE_FRONT" value=""/>
+    <!-- beauty options skin color default type back, 0:white, 1:rosy, 2:wheat -->
+    <Param name="SKIN_COLOR_DEFAULT_TYPE_BACK" value=""/>
+    <!-- beauty options skin color default type front, 0:white, 1:rosy, 2:wheat -->
+    <Param name="SKIN_COLOR_DEFAULT_TYPE_FRONT" value=""/>
+    <!-- beauty options enlarge eyes default value back, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="ENLARGE_EYES_DEFAULT_VALUE_BACK" value=""/>
+    <!-- beauty options enlarge eyes default value front, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="ENLARGE_EYES_DEFAULT_VALUE_FRONT" value=""/>
+    <!-- beauty options slim face default value back, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="SLIM_FACE_DEFAULT_VALUE_BACK" value=""/>
+    <!-- beauty options slim face default value front, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="SLIM_FACE_DEFAULT_VALUE_FRONT" value=""/>
+    <!-- beauty options lips color default value back, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="LIPS_COLOR_DEFAULT_VALUE_BACK" value=""/>
+    <!-- beauty options lips color default value front, level from small to big is (0,2,4,6,8,10) -->
+    <Param name="LIPS_COLOR_DEFAULT_VALUE_FRONT" value=""/>
+    <!-- beauty options lips color default type back, 0:crimson, 1:pink, 2:fuchsia -->
+    <Param name="LIPS_COLOR_DEFAULT_TYPE_BACK" value=""/>
+    <!-- beauty options lips color default type front, 0:crimson, 1:pink, 2:fuchsia -->
+    <Param name="LIPS_COLOR_DEFAULT_TYPE_FRONT" value=""/>
+    <!-- camera qrcode scan picture from only gallery -->
+    <ParamBoolean name="CAMERA_QRCODE_SCAN_PICTURE_FROM_ONLY_GALLERY" value="true"/>
+    <!-- camera custom brightness, dark(0-255)light -->
+    <Param name="CAMERA_CUSTOM_BRIGHTNESS_VALUE" value=""/>
+
+    <!-- feature slr function(景深) -->
+    <!-- camera depth blur mode support ? true : false -->
+    <ParamBoolean name="CAMERA_DEPTH_BLUR_PHOTO_ENABLE" value="false" />
+    <!-- camera slr mode support ? true : false -->
+    <ParamBoolean name="CAMERA_SLR_PHOTO_ENABLE" value="false" />
+    <!-- camera sprd back blur enable ? true : false -->
+    <ParamBoolean name="CAMERA_SPRD_BACK_BLUR_ENABLE" value="true" />
+
+    <!-- feature iko function(智能识物) -->
+    <!-- camera iko mode support ? true : false -->
+    <ParamBoolean name="CAMERA_IKO_PHOTO_ENABLE" value="false" />
+    <!-- camera Intelligent knowledge object(IKO) mode use specified browser-->
+    <Param name="IKO_USE_SPECIFIED_BROWSER_PKG" value="com.feimi.browser" />
+
+    <!-- feature effect video mode function(美视) -->
+    <!-- camera effect video mode support ? true : false -->
+    <ParamBoolean name="CAMERA_EFFECT_VIDEO_ENABLE" value="false" />
+
+    <!-- feature slow video mode function(慢录) -->
+    <!-- camera slow video mode support ? true : false -->
+    <ParamBoolean name="CAMERA_SLOW_VIDEO_ENABLE" value="false" />
+
+    <!-- picture size -->
+    <!-- camera custom picture size enable ? true : false -->
+    <ParamBoolean name="CAMERA_PICTURE_SIZE_CUSTOM_ENABLE" value="false" />
+    <ParamPictureSize name="0" value="(4:3) 23MP" /> <!-- 0000 -->
+    <ParamPictureSize name="8" value="(4:3) 23MP" /> <!-- 1000 -->
+    <ParamPictureSize_23M name="0" value="(4:3) 23MP" /> <!-- 0000 -->
+    <ParamPictureSize_23M name="1" value="(4:3) 16MP" /> <!-- 0001 -->
+    <ParamPictureSize_23M name="8" value="(4:3) 23MP" /> <!-- 1000 -->
+    <ParamPictureSize_23M name="9" value="(4:3) 16MP" /> <!-- 1001 -->
+
+    <!--
+    自定义功能显示列表(MODE_SLIDE_LIST):
+    通过数字进行功能排序
+    拍照模式是基准模式, 动添加到中央位置,无需配置;
+    如果有更多功能时,总显示数量为配置数+2(拍照和更多),反之+1(拍照)
+    所以为了保持美观居中,推荐尽量配置总数量为单数
+
+        1 : 专业,
+        2 : 连拍,
+        3 : 间隔,
+        4 : 全景,
+        5 : 大光圈,
+        6 : 场景选择,
+        7 : 画中画拍照,
+        8 : gcam,
+        9 : 视频,
+        10 : 画中画视频,
+        11 : 延时,
+        12 : 慢录,
+        13 : 有声照片,
+        14 : 滤镜,
+        15 : 二维码
+        20 : 夜景拍照,
+        21 : 夜景录像,
+        28 : 广角,
+        29 : 人像,
+        30 : 超清拍照,
+        31 : 微距拍照,
+        32 : 微距录像,
+        33 : 红外检测,
+        34 : 景深,
+        35 : 识物,
+        36 : 美视,
+        37 : 慢动作视频
+    -->
+    <!--<Param name="MODE_SLIDE_LIST" value="1,2 ,5, 9 ,35" />-->
+</root>

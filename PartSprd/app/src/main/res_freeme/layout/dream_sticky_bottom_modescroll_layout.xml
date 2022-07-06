@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.freeme.camera.ui.StickyBottomModeScrollLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sticky_bottom_modescroll_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.freeme.camera.ui.ModeScrollView
+        android:id="@+id/bottom_mode_switch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dream2_bottom_mode_switch_height"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:clipToPadding="false"
+        android:descendantFocusability="blocksDescendants"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="32dp"
+        android:fillViewport="true"
+        android:orientation="horizontal"
+        android:overScrollMode="always"
+        android:paddingTop="@dimen/mode_switch_padding_top"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/bottom_modeid_show_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="28dp"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/bottom_modeid_show_text"
+            style="@style/FixedDreamText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:text="@string/camera_mode"
+            android:textColor="@color/freeme_text_color_primary"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageButton
+            android:id="@+id/bottom_modeid_show_cancel"
+            android:layout_width="@dimen/freeme_bottom_modeid_cancel_view_size"
+            android:layout_height="@dimen/freeme_bottom_modeid_cancel_view_size"
+            android:background="@null"
+            android:clickable="false"
+            android:src="@drawable/ic_freeme_quit_mode" />
+    </LinearLayout>
+
+</com.freeme.camera.ui.StickyBottomModeScrollLayout>

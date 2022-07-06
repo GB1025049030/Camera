@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/freeme_iko_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/no_network_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mode_name_bg_nomal"
+        android:gravity="center"
+        android:text="@string/freeme_iko_no_network"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/freeme_color_white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/is_identifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mode_name_bg_nomal"
+        android:gravity="center"
+        android:text="@string/iko_is_identify"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/freeme_color_white" />
+
+    <ImageView
+        android:id="@+id/intent_review_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/handle_progressing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/iko_processing"
+        android:visibility="gone" />
+
+    <!--<com.freeme.camera.feature.mode.iko.MaskView
+        android:id="@+id/mask_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />-->
+
+</RelativeLayout>

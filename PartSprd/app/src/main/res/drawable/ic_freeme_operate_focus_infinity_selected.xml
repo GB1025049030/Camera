@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/freeme_operate_icon_size"
+    android:height="@dimen/freeme_operate_icon_size"
+    android:viewportWidth="49"
+    android:viewportHeight="48">
+    <path
+        android:fillAlpha="0"
+        android:fillColor="#D8D8D8"
+        android:fillType="evenOdd"
+        android:pathData="M0.6887,0h48v48h-48z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillAlpha="0.8"
+        android:fillColor="@color/freeme_main_color"
+        android:fillType="evenOdd"
+        android:pathData="M16.8094,20.5296L24.695,35.1622C25.2318,36.1583 24.8595,37.4009 23.8634,37.9377C23.5647,38.0987 23.2308,38.1829 22.8915,38.1829L7.1201,38.1829C5.9886,38.1829 5.0714,37.2657 5.0714,36.1341C5.0714,35.7949 5.1556,35.4609 5.3166,35.1622L13.2022,20.5296C13.739,19.5335 14.9817,19.1612 15.9778,19.698C16.3303,19.888 16.6194,20.1771 16.8094,20.5296Z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.8"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillColor="@color/freeme_main_color"
+        android:fillType="evenOdd"
+        android:pathData="M31.4388,12.8467L43.4649,35.1622C44.0017,36.1583 43.6293,37.4009 42.6333,37.9377C42.3346,38.0987 42.0006,38.1829 41.6613,38.1829L17.6092,38.1829C16.4777,38.1829 15.5604,37.2657 15.5604,36.1341C15.5604,35.7949 15.6447,35.4609 15.8056,35.1622L27.8317,12.8467C28.3685,11.8506 29.6111,11.4783 30.6072,12.0151C30.9597,12.205 31.2488,12.4942 31.4388,12.8467Z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+</vector>

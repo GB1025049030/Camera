@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dream_make_up_panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <FrameLayout
+        android:id="@+id/sub_panel_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- skin smooth panel -->
+        <com.dream.camera.ui.MakeUpLevel
+            android:id="@+id/skin_smooth_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+        </com.dream.camera.ui.MakeUpLevel>
+
+        <!-- skin bright panel -->
+        <com.dream.camera.ui.MakeUpLevel
+            android:id="@+id/skin_bright_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+        </com.dream.camera.ui.MakeUpLevel>
+
+        <!-- enlarge_eyes_panel -->
+        <com.dream.camera.ui.MakeUpLevel
+            android:id="@+id/enlarge_eyes_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+        </com.dream.camera.ui.MakeUpLevel>
+
+        <!-- slim_face_panel -->
+        <com.dream.camera.ui.MakeUpLevel
+            android:id="@+id/slim_face_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+        </com.dream.camera.ui.MakeUpLevel>
+    </FrameLayout>
+
+    <include layout="@layout/layout_make_up_scroller"/>
+</LinearLayout>

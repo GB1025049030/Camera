@@ -1,0 +1,4 @@
+源：https://github.com/ZBar/ZBar
+java目录中删除了test目录
+java目录中删除了Makefile.am
+java目录中删除了zbarjni.c

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="pref_show_gradienter_key_array">
+        <item>@string/pref_show_gradienter_key</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_switch_item_default_value_false</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="pref_time_water_mark_key_array">
+        <item>@string/pref_time_water_mark_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/preference_switch_item_default_value_false</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="pref_location_water_mark_key_array">
+        <item>@string/pref_location_water_mark_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/preference_switch_item_default_value_false</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="pref_brand_water_mark_key_array">
+        <item>@string/pref_brand_water_mark_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/preference_switch_item_default_value_false</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="photo_back_slr_setting">
+        <item>@array/pref_camera_picturesize_back_key_array</item>
+        <item>@array/pref_camera_jpeg_quality_key_array</item>
+        <item>@array/pref_camera_composition_line_key_array</item>
+        <item>@array/pref_camera_face_detect_key_array</item>
+        <item>@array/pref_camera_antibanding_key_array</item>
+        <item>@array/pref_auto3dnr_param_key_array</item>
+        <item>@array/pref_camera_ai_scene_detect_key_array</item>
+        <item>@array/pref_ai_detect_smile_key_array</item>
+        <item>@array/pref_ai_detect_face_attributes_key_array</item>
+        <item>@array/pref_camera_hdr_normal_pic_key_array</item>
+        <item>@array/pref_auto_add_logowatermark_key_array</item>
+        <item>@array/pref_auto_add_timewatermark_key_array</item>
+        <item>@array/pref_camera_touching_photograph_key_array</item>
+        <item>@array/pref_camera_time_stamp_key_array</item>
+        <item>@array/pref_camera_zsl_key_array</item>
+        <item>@array/pref_auto_tracking_key_array</item>
+        <item>@array/pref_camera_back_beauty_entered_key_array</item>
+        <item>@array/pref_make_up_display_key_array</item>
+        <item>@array/pref_camera_ai_beauty_entered_key_back_array</item>
+        <item>@array/pref_camera_flashmode_key_array</item>
+        <item>@array/pref_camera_countdown_duration_key_array</item>
+        <item>@array/pref_camera_refocus_key_array</item>
+        <item>@array/pref_camera_hdr_key_array</item>
+        <item>@array/pref_eois_dc_back_key_array</item>
+        <item>@array/pref_camera_metering_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+        <item>@array/pref_camera_ae_lock_key_array</item>
+        <item>@array/pref_camera_ultra_wide_angle_key_array</item>
+        <item>@array/pref_camera_montionphoto_key_array</item>
+        <item>@array/pref_time_water_mark_key_array</item>
+        <item>@array/pref_location_water_mark_key_array</item>
+        <item>@array/pref_brand_water_mark_key_array</item>
+    </integer-array>
+
+    <integer-array name="photo_back_mode_slr_setting_display">
+        <item>@string/pref_camera_picturesize_back_key</item>
+        <item>@string/pref_camera_jpeg_quality_key</item>
+        <item>@string/pref_camera_antibanding_key</item>
+        <item>@string/pref_camera_touching_photograph_key</item>
+        <item>@string/pref_camera_countdown_duration_key</item>
+        <item>@string/pref_time_water_mark_key</item>
+        <item>@string/pref_location_water_mark_key</item>
+        <item>@string/pref_brand_water_mark_key</item>
+    </integer-array>
+
+    <integer-array name="photo_back_iko_setting">
+        <item>@array/pref_camera_picturesize_back_key_array</item>
+        <item>@array/pref_camera_jpeg_quality_key_array</item>
+        <item>@array/pref_camera_composition_line_key_array</item>
+        <item>@array/pref_camera_face_detect_key_array</item>
+        <item>@array/pref_camera_antibanding_key_array</item>
+        <item>@array/pref_auto3dnr_param_key_array</item>
+        <item>@array/pref_camera_ai_scene_detect_key_array</item>
+        <item>@array/pref_ai_detect_smile_key_array</item>
+        <item>@array/pref_ai_detect_face_attributes_key_array</item>
+        <item>@array/pref_camera_hdr_normal_pic_key_array</item>
+        <item>@array/pref_auto_add_logowatermark_key_array</item>
+        <item>@array/pref_auto_add_timewatermark_key_array</item>
+        <item>@array/pref_camera_touching_photograph_key_array</item>
+        <item>@array/pref_camera_time_stamp_key_array</item>
+        <item>@array/pref_camera_zsl_key_array</item>
+        <item>@array/pref_auto_tracking_key_array</item>
+        <item>@array/pref_camera_back_beauty_entered_key_array</item>
+        <item>@array/pref_make_up_display_key_array</item>
+        <item>@array/pref_camera_ai_beauty_entered_key_back_array</item>
+        <item>@array/pref_camera_countdown_duration_key_array</item>
+        <item>@array/pref_camera_refocus_key_array</item>
+        <item>@array/pref_camera_hdr_key_array</item>
+        <item>@array/pref_eois_dc_back_key_array</item>
+        <item>@array/pref_camera_metering_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+        <item>@array/pref_camera_ae_lock_key_array</item>
+        <item>@array/pref_camera_ultra_wide_angle_key_array</item>
+        <item>@array/pref_camera_montionphoto_key_array</item>
+        <item>@array/pref_camera_flashmode_key_gif_array</item>
+    </integer-array>
+
+    <integer-array name="photo_back_mode_iko_setting_display">
+        <item>@string/pref_camera_picturesize_back_key</item>
+        <item>@string/pref_camera_jpeg_quality_key</item>
+        <item>@string/pref_camera_antibanding_key</item>
+        <item>@string/pref_camera_touching_photograph_key</item>
+        <item>@string/pref_camera_countdown_duration_key</item>
+    </integer-array>
+
+    <integer-array name="pref_filter_display_key_array">
+        <item>@string/pref_filter_display_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="photo_front_depth_blur_setting">
+        <item>@array/pref_camera_picturesize_front_key_array</item>
+        <item>@array/pref_camera_composition_line_key_array</item>
+        <item>@array/pref_camera_face_detect_key_array</item>
+        <item>@array/pref_ai_detect_smile_key_array</item>
+        <item>@array/pref_ai_detect_face_attributes_key_array</item>
+        <item>@array/pref_auto3dnr_param_key_array</item>
+        <item>@array/pref_camera_antibanding_key_array</item>
+        <item>@array/pref_camera_hdr_normal_pic_key_array</item>
+        <item>@array/pref_camera_touching_photograph_key_array</item>
+        <item>@array/pref_camera_time_stamp_key_array</item>
+        <item>@array/pref_camera_zsl_key_array</item>
+        <item>@array/pref_camera_hdr_key_array</item>
+        <item>@array/pref_camera_beauty_entered_key_array</item>
+        <item>@array/pref_make_up_display_key_array</item>
+        <item>@array/pref_camera_countdown_duration_key_array</item>
+        <item>@array/pref_front_camera_sensor_self_shot_key_array</item>
+        <item>@array/pref_eois_dc_front_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+        <item>@array/pref_camera_flashmode_key_array</item>
+        <item>@array/pref_camera_montionphoto_key_array</item>
+    </integer-array>
+
+    <integer-array name="photo_front_mode_depth_blur_setting_display">
+        <item>@string/pref_camera_picturesize_front_key</item>
+        <item>@string/pref_camera_composition_line_key</item>
+        <item>@string/pref_ai_detect_smile_key</item>
+        <item>@string/pref_ai_detect_face_attributes_key</item>
+        <item>@string/pref_auto3dnr_param_key</item>
+        <item>@string/pref_camera_antibanding_key</item>
+        <item>@string/pref_camera_hdr_normal_pic_key</item>
+        <item>@string/pref_camera_touching_photograph_key</item>
+        <item>@string/pref_camera_time_stamp_key</item>
+        <item>@string/pref_camera_hdr_key</item>
+        <item>@string/pref_camera_countdown_duration_key</item>
+        <item>@string/pref_camera_beauty_entered_key</item>
+        <item>@string/pref_sensor_self_shot</item>
+        <item>@string/pref_eois_dc_front_key</item>
+        <item>@string/pref_key_montionphoto</item>
+    </integer-array>
+
+    <integer-array name="photo_back_depth_blur_setting">
+        <item>@array/pref_camera_picturesize_back_key_array</item>
+        <item>@array/pref_camera_composition_line_key_array</item>
+        <item>@array/pref_camera_face_detect_key_array</item>
+        <item>@array/pref_camera_antibanding_key_array</item>
+        <item>@array/pref_auto3dnr_param_key_array</item>
+        <item>@array/pref_ai_detect_smile_key_array</item>
+        <item>@array/pref_ai_detect_face_attributes_key_array</item>
+        <item>@array/pref_camera_hdr_normal_pic_key_array</item>
+        <item>@array/pref_camera_touching_photograph_key_array</item>
+        <item>@array/pref_camera_time_stamp_key_array</item>
+        <item>@array/pref_camera_zsl_key_array</item>
+        <item>@array/pref_auto_tracking_key_array</item>
+        <item>@array/pref_camera_back_beauty_entered_key_array</item>
+        <item>@array/pref_make_up_display_key_array</item>
+        <item>@array/pref_camera_ai_beauty_entered_key_back_array</item>
+        <item>@array/pref_camera_flashmode_key_array</item>
+        <item>@array/pref_camera_countdown_duration_key_array</item>
+        <item>@array/pref_camera_hdr_key_array</item>
+        <item>@array/pref_eois_dc_back_key_array</item>
+        <item>@array/pref_camera_metering_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+        <item>@array/pref_camera_ae_lock_key_array</item>
+        <item>@array/pref_camera_ultra_wide_angle_key_array</item>
+        <item>@array/pref_camera_montionphoto_key_array</item>
+    </integer-array>
+
+    <integer-array name="photo_back_mode_depth_blur_setting_display">
+        <item>@string/pref_camera_picturesize_back_key</item>
+        <item>@string/pref_camera_composition_line_key</item>
+        <item>@string/pref_ai_detect_smile_key</item>
+        <item>@string/pref_ai_detect_face_attributes_key</item>
+        <item>@string/pref_camera_antibanding_key</item>
+        <item>@string/pref_auto3dnr_param_key</item>
+        <item>@string/pref_camera_hdr_normal_pic_key</item>
+        <item>@string/pref_camera_touching_photograph_key</item>
+        <item>@string/pref_camera_time_stamp_key</item>
+        <item>@string/pref_camera_flashmode_key</item>
+        <item>@string/pref_camera_countdown_duration_key</item>
+        <item>@string/pref_camera_hdr_key</item>
+        <item>@string/pref_eois_dc_back_key</item>
+        <item>@string/pre_ae_lock_key</item>
+        <item>@string/pref_camera_ultra_wide_angle_key</item>
+        <item>@string/pref_auto_tracking_key</item>
+        <item>@string/pref_key_montionphoto</item>
+    </integer-array>
+
+    <integer-array name="photo_front_effect_setting">
+        <item>@array/pref_camera_picturesize_front_key_array</item>
+        <item>@array/pref_camera_composition_line_key_array</item>
+        <item>@array/pref_camera_face_detect_key_array</item>
+        <item>@array/pref_ai_detect_smile_key_array</item>
+        <item>@array/pref_ai_detect_face_attributes_key_array</item>
+        <item>@array/pref_auto3dnr_param_key_array</item>
+        <item>@array/pref_camera_antibanding_key_array</item>
+        <item>@array/pref_camera_hdr_normal_pic_key_array</item>
+        <item>@array/pref_camera_touching_photograph_key_array</item>
+        <item>@array/pref_camera_time_stamp_key_array</item>
+        <item>@array/pref_camera_zsl_key_array</item>
+        <item>@array/pref_camera_hdr_key_array</item>
+        <item>@array/pref_camera_beauty_entered_key_array</item>
+        <item>@array/pref_make_up_display_key_array</item>
+        <item>@array/pref_camera_countdown_duration_key_array</item>
+        <!--        <item>@array/pref_front_camera_mirror_key_array</item>-->
+        <item>@array/pref_front_camera_sensor_self_shot_key_array</item>
+        <item>@array/pref_eois_dc_front_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+        <item>@array/pref_camera_flashmode_key_array</item>
+        <item>@array/pref_camera_montionphoto_key_array</item>
+    </integer-array>
+
+    <integer-array name="photo_front_mode_effect_setting_display">
+        <item>@string/pref_camera_picturesize_front_key</item>
+        <item>@string/pref_camera_composition_line_key</item>
+        <item>@string/pref_ai_detect_smile_key</item>
+        <item>@string/pref_ai_detect_face_attributes_key</item>
+        <item>@string/pref_auto3dnr_param_key</item>
+        <item>@string/pref_camera_antibanding_key</item>
+        <item>@string/pref_camera_hdr_normal_pic_key</item>
+        <item>@string/pref_camera_touching_photograph_key</item>
+        <item>@string/pref_camera_time_stamp_key</item>
+        <item>@string/pref_camera_hdr_key</item>
+        <item>@string/pref_camera_countdown_duration_key</item>
+        <item>@string/pref_camera_beauty_entered_key</item>
+        <!--        <item>@string/pref_front_camera_mirror_key</item>-->
+        <item>@string/pref_sensor_self_shot</item>
+        <item>@string/pref_eois_dc_front_key</item>
+        <item>@string/pref_key_montionphoto</item>
+    </integer-array>
+
+    <integer-array name="photo_back_effect_setting">
+        <item>@array/pref_camera_picturesize_back_key_array</item>
+        <item>@array/pref_camera_composition_line_key_array</item>
+        <item>@array/pref_camera_face_detect_key_array</item>
+        <item>@array/pref_camera_antibanding_key_array</item>
+        <item>@array/pref_auto3dnr_param_key_array</item>
+        <item>@array/pref_ai_detect_smile_key_array</item>
+        <item>@array/pref_ai_detect_face_attributes_key_array</item>
+        <item>@array/pref_camera_hdr_normal_pic_key_array</item>
+        <item>@array/pref_camera_touching_photograph_key_array</item>
+        <item>@array/pref_camera_time_stamp_key_array</item>
+        <item>@array/pref_camera_zsl_key_array</item>
+        <item>@array/pref_auto_tracking_key_array</item>
+        <item>@array/pref_camera_back_beauty_entered_key_array</item>
+        <item>@array/pref_make_up_display_key_array</item>
+        <item>@array/pref_camera_ai_beauty_entered_key_back_array</item>
+        <item>@array/pref_camera_flashmode_key_array</item>
+        <item>@array/pref_camera_countdown_duration_key_array</item>
+        <item>@array/pref_camera_hdr_key_array</item>
+        <item>@array/pref_eois_dc_back_key_array</item>
+        <item>@array/pref_camera_metering_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+        <item>@array/pref_camera_ae_lock_key_array</item>
+        <item>@array/pref_camera_ultra_wide_angle_key_array</item>
+        <item>@array/pref_camera_montionphoto_key_array</item>
+    </integer-array>
+
+    <integer-array name="photo_back_mode_effect_setting_display">
+        <item>@string/pref_camera_picturesize_back_key</item>
+        <item>@string/pref_camera_composition_line_key</item>
+        <item>@string/pref_ai_detect_smile_key</item>
+        <item>@string/pref_ai_detect_face_attributes_key</item>
+        <item>@string/pref_camera_antibanding_key</item>
+        <item>@string/pref_auto3dnr_param_key</item>
+        <item>@string/pref_camera_hdr_normal_pic_key</item>
+        <item>@string/pref_camera_touching_photograph_key</item>
+        <item>@string/pref_camera_time_stamp_key</item>
+        <item>@string/pref_camera_flashmode_key</item>
+        <item>@string/pref_camera_countdown_duration_key</item>
+        <item>@string/pref_camera_hdr_key</item>
+        <item>@string/pref_eois_dc_back_key</item>
+        <item>@string/pre_ae_lock_key</item>
+        <item>@string/pref_camera_ultra_wide_angle_key</item>
+        <item>@string/pref_auto_tracking_key</item>
+        <item>@string/pref_key_montionphoto</item>
+    </integer-array>
+
+    <integer-array name="photo_back_night_setting">
+        <item>@array/pref_camera_jpeg_quality_key_array</item>
+        <item>@array/pref_camera_face_detect_key_array</item>
+        <item>@array/pref_ai_detect_smile_key_array</item>
+        <item>@array/pref_ai_detect_face_attributes_key_array</item>
+        <item>@array/pref_camera_antibanding_key_array</item>
+        <item>@array/pref_auto_add_logowatermark_key_array</item>
+        <item>@array/pref_auto_add_timewatermark_key_array</item>
+        <item>@array/pref_camera_touching_photograph_key_array</item>
+        <item>@array/pref_camera_time_stamp_key_array</item>
+        <item>@array/pref_camera_countdown_duration_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+    </integer-array>
+
+    <integer-array name="photo_back_mode_night_setting_display">
+        <item>@string/pref_camera_jpeg_quality_key</item>
+        <item>@string/pref_ai_detect_smile_key</item>
+        <item>@string/pref_ai_detect_face_attributes_key</item>
+        <item>@string/pref_auto_add_logowatermark_key</item>
+        <item>@string/pref_auto_add_timewatermark_key</item>
+        <item>@string/pref_camera_antibanding_key</item>
+        <item>@string/pref_camera_touching_photograph_key</item>
+        <item>@string/pref_camera_time_stamp_key</item>
+        <item>@string/pref_camera_countdown_duration_key</item>
+    </integer-array>
+
+    <integer-array name="photo_front_night_setting">
+        <item>@array/pref_camera_jpeg_quality_key_array</item>
+        <item>@array/pref_camera_face_detect_key_array</item>
+        <item>@array/pref_ai_detect_smile_key_array</item>
+        <item>@array/pref_ai_detect_face_attributes_key_array</item>
+        <item>@array/pref_auto_add_logowatermark_key_array</item>
+        <item>@array/pref_auto_add_timewatermark_key_array</item>
+        <item>@array/pref_camera_antibanding_key_array</item>
+        <item>@array/pref_camera_touching_photograph_key_array</item>
+        <item>@array/pref_camera_time_stamp_key_array</item>
+        <item>@array/pref_camera_countdown_duration_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+    </integer-array>
+
+    <integer-array name="photo_front_mode_night_setting_display">
+        <item>@string/pref_camera_jpeg_quality_key</item>
+        <item>@string/pref_ai_detect_smile_key</item>
+        <item>@string/pref_ai_detect_face_attributes_key</item>
+        <item>@string/pref_auto_add_logowatermark_key</item>
+        <item>@string/pref_auto_add_timewatermark_key</item>
+        <item>@string/pref_camera_antibanding_key</item>
+        <item>@string/pref_camera_touching_photograph_key</item>
+        <item>@string/pref_camera_time_stamp_key</item>
+        <item>@string/pref_camera_countdown_duration_key</item>
+    </integer-array>
+</resources>

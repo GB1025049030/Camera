@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pref_show_gradienter_title">水平仪</string>
+    <string name="pref_time_watermark_title">时间水印</string>
+    <string name="pref_location_watermark_title">地理位置水印</string>
+    <string name="pref_brand_watermark_title">品牌水印</string>
+
+    <string name="camera_mode_slr_photo">@string/camera_mode_refocus</string>
+    <string name="camera_mode_iko_photo">识物</string>
+    <string name="camera_mode_effect_photo">美颜</string>
+
+    <string name="camera_mode_more">更多</string>
+    <string name="mode_camera_more_desc">更多</string>
+
+    <string name="network_dialog_ok">确定</string>
+    <string name="network_dialog_cancel">取消</string>
+    <string name="network_dialog_title">允许”相机“使用网络</string>
+    <string name="network_dialog_message">用以获取智能识物信息和获取精确的位置信息</string>
+
+    <string name="permission_location_setting">位置权限设置</string>
+    <string name="permission_dont_ask_for_user_message">该权限已被用户选择不再询问,是否手动设置?</string>
+    <string name="permission_go_to_detail_setting">去设置</string>
+
+    <string name="pref_freeme_camera_check_update_title">检查更新</string>
+    <string name="pref_freeme_camera_manual_update_title">手动更新</string>
+
+    <string name="tips_content_text">美拍相机，支持多种拍摄模式</string>
+    <string name="privacy_content_text_main">
+        <Data>
+            <![CDATA[, <b>需联网和获取位置信息</b>。点击同意即表示您同意上述内容。]]>
+        </Data>
+    </string>
+    <string name="privacy_content_text_prefix">本应用在使用智能识物、位置信息、自更新的过程中</string>
+
+    <string name="camera_iko_top_privacy_disable">您还未允许使用网络，识物功能不可用</string>
+</resources>

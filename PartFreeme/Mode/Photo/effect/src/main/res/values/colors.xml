@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#8CFFFFFF</color>
+<!--    <color name="color_fill_3">#AA000000</color>-->
+    <color name="color_fill_3">#99000000</color>
+    <color name="toast_background">#CC000000</color>
+    <color name="black_trans_40">#66000000</color>
+    <color name="black_trans_15">#21FFFFFF</color>
+    <color name="dot_point_on">#30D8D8</color>
+    <color name="transparent">#00000000</color>
+    <color name="brand_color">#1664FF</color>
+    <color name="inactivie_progress_bg">#4DFFFFFF</color>
+    <color name="divider_line">#26FFFFFF</color>
+<!--    <color name="black_trans_15">#210dd090</color>-->
+    <color name="opacity_10_white">#1AFFFFFF</color>
+
+    <color name="grid_focused">#3F78B5</color>
+    <color name="colorBg">#F4F5F7</color>
+    <color name="colorChecked">#33cccc</color>
+    <color name="colorUnChecked">#aaaaaa</color>
+    <color name="selected_color">#1E90FF</color>
+    <color name="track_selected_color">#87CEFA</color>
+</resources>
